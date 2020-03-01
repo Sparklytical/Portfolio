@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "gatsby";
+import "typeface-nunito";
 
 export const Logo = styled.img`
   height: 40px;
@@ -8,33 +9,40 @@ export const Logo = styled.img`
 
 export const Nav = styled.nav`
   display: flex;
-  -webkit-box-pack: justify;
   justify-content: space-between;
-  flex-direction: row;
-  padding: 1rem 1.5rem;
+  align-items: center;
   background: transparent;
-  font-family: "Nunito";
-  /* background: linear-gradient(45deg, rgb(38, 44, 65) 0%, rgb(70, 80, 122) 100%); */
+
+  a {
+    color: #000;
+    margin-left: 2rem;
+    transition: all 0.4s ease 0s;
+    &:hover {
+      color: #7d7f81;
+    }
+    &:focus {
+      color: #7d7f81;
+    }
+  }
 `;
 
 export const NavLink = styled(Link)`
-  color: #fff;
-  margin-left: 2rem;
-  transition: all 0.4s ease 0s;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
   text-decoration: none;
-
-  &:hover {
-    color: rgb(38, 44, 65);
+  flex-direction: row;
+  svg {
+    height: 2.5rem;
+    margin-bottom: 0;
   }
 `;
 
 export const NavLinkContainer = styled.div`
+  font-family: "Nunito";
   display: flex;
   -webkit-box-pack: end;
   justify-content: flex-end;
-  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
   -webkit-box-align: center;
   align-items: center;
 `;

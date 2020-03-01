@@ -1,6 +1,5 @@
 import React from "react";
 import Headroom from "react-headroom";
-import "typeface-nunito";
 // import styled from "styled-components";
 import LogoImg from "../../img/EvilSpark.png";
 import { Logo, Nav, NavLink, NavLinkContainer } from "./styles";
@@ -50,7 +49,10 @@ const Navbar = class extends React.Component {
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
+              role="button"
+              tabIndex={0}
               onClick={() => this.toggleHamburger()}
+              onKeyDown={() => this.toggleHamburger()}
             >
               <span />
               <span />
@@ -61,21 +63,19 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <NavLink className="navbar-item" to="/about">
-                About
-              </NavLink>
+            <NavLink className="navbar-item" to="/about">
+              About
+            </NavLink>
 
-              <NavLink className="navbar-item" to="/blog">
-                Blog
-              </NavLink>
-              <NavLink className="navbar-item" to="/contact">
-                Contact
-              </NavLink>
-              <NavLink className="navbar-item" to="/contact/examples">
-                Form Examples
-              </NavLink>
-            </div>
+            <NavLink className="navbar-item" to="/blog">
+              Blog
+            </NavLink>
+            <NavLink className="navbar-item" to="/contact">
+              Contact
+            </NavLink>
+            <NavLink className="navbar-item" to="/contact/examples">
+              Form Examples
+            </NavLink>
           </NavLinkContainer>
         </Nav>
       </Headroom>
