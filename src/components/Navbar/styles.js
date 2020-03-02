@@ -1,10 +1,15 @@
-import styled from "styled-components";
-import { Link } from "gatsby";
-import "typeface-nunito";
+import styled from 'styled-components';
+import { Link } from 'gatsby';
+import 'typeface-nunito';
 
-export const Logo = styled.img`
-  height: 40px;
-  width: auto;
+export const Logo = styled.span`
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
+  font-size: 1.25rem;
+  margin-left: 0.75rem;
+  letter-spacing: 0.15em;
+  color: rgb(255, 255, 255);
 `;
 
 export const Nav = styled.nav`
@@ -12,9 +17,10 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   background: transparent;
+  width: -webkit-fill-available;
 
   a {
-    color: #000;
+    color: rgb(255, 255, 255);
     margin-left: 2rem;
     transition: all 0.4s ease 0s;
     &:hover {
@@ -28,7 +34,6 @@ export const Nav = styled.nav`
 
 export const NavLink = styled(Link)`
   display: flex;
-  font-weight: 700;
   align-items: center;
   text-decoration: none;
   flex-direction: row;
@@ -39,10 +44,15 @@ export const NavLink = styled(Link)`
 `;
 
 export const NavLinkContainer = styled.div`
-  font-family: "Nunito";
   display: flex;
   -webkit-box-pack: end;
+  font: 18px Nunito;
   justify-content: flex-end;
   -webkit-box-align: center;
   align-items: center;
+  margin: 0 50px;
+  font-weight: 400;
+  word-wrap: break-word;
+  font-kerning: normal;
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt';
 `;

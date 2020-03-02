@@ -1,15 +1,15 @@
-import React from "react";
-import Headroom from "react-headroom";
+import React from 'react';
+import Headroom from 'react-headroom';
 // import styled from "styled-components";
-import LogoImg from "../../img/EvilSpark.png";
-import { Logo, Nav, NavLink, NavLinkContainer } from "./styles";
-
+// import LogoImg from '../../img/white_logo.png';
+import { Logo, Nav, NavLink, NavLinkContainer } from './styles';
+import LogoImg from '../../img/logo';
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       active: false,
-      navBarActiveClass: ""
+      navBarActiveClass: '',
     };
   }
 
@@ -17,25 +17,32 @@ const Navbar = class extends React.Component {
     // toggle the active boolean in the state
     this.setState(
       {
-        active: !this.state.active
+        active: !this.state.active,
       },
       // after state has been updated,
       () => {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: "is-active"
+              navBarActiveClass: 'is-active',
             })
           : this.setState({
-              navBarActiveClass: ""
+              navBarActiveClass: '',
             });
-      }
+      },
     );
   };
 
   render() {
     return (
-      <Headroom>
+      <Headroom
+        style={{
+          webkitTransition: 'all .5s ease-in-out',
+          mozTransition: 'all .5s ease-in-out',
+          oTransition: 'all .5s ease-in-out',
+          transition: 'all .5s ease-in-out',
+        }}
+      >
         <Nav
           className="navbar is-transparent"
           role="navigation"
@@ -43,7 +50,8 @@ const Navbar = class extends React.Component {
         >
           <div className="navbar-brand">
             <NavLink to="/" className="navbar-item" title="Logo">
-              <Logo src={LogoImg} alt="Logo" />
+              <LogoImg />
+              <Logo className="logoImg">EvilSpark</Logo>
             </NavLink>
             {/* Hamburger menu */}
             <div

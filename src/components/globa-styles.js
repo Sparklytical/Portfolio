@@ -1,35 +1,78 @@
-import { createGlobalStyle } from "styled-components";
-
+import { createGlobalStyle } from 'styled-components';
+import 'sanitize.css';
 const GlobalStyle = createGlobalStyle`
 
+.body {
+  margin: 0;
+}
+
+.headroom-wrapper {
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+  }
+
+  .headroom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    svg {
+      height: 2.5rem;
+      g {
+        fill: #fff;
+      }
+    }
+  }
+
+
+.headroom--unfixed {
+  position: relative;
+  transform: translateY(0);
+  transition: all 0.25s ease-in-out 0s;
+}
+
+.headroom--unpinned {
+  position: fixed;
+  transform: translateY(-100%);
+}
+
   .headroom--scrolled {
-    margin: 0 8px;
     padding: 8px 0;
-    background: transparent;
+    transition: transform 200ms ease-in-out;
+    background: rgba(0, 0, 0, 0.035);
     box-shadow:
   0 1.4px 2.9px -15px rgba(0, 0, 0, 0.035),
-  0 11px 23px -15px rgba(0, 0, 0, 0.07)
-;
+  0 11px 23px -15px rgba(0, 0, 0, 0.07);
+  }
+  
+  .headroom--pinned {
+    position: fixed;
+    transform: translateY(0);
+    background: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
   }
   .wallpaper {
     position: relative;
     height: 100vh;
     overflow: hidden;
-    font-family: 'Montserrat', sans-serif;
-  }
+    }
+
+  
   .cube {
   position: absolute;
   top: 80vh;
   left: 45vw;
   width: 10px;
   height: 10px;
-  border: solid 1px #0040C1;
+  border: solid 1px #e6f9ff;
   transform-origin: top left;
   transform: scale(0) rotate(0deg) translate(-50%, -50%);
   animation: cube 12s ease-in forwards infinite;
   
   &:nth-child(2n) {
-    border-color: lighten(#0040C1, 10%);
+    border-color: lighten(#e6f9ff, 10%);
   }
   
   &:nth-child(2) {

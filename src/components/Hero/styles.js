@@ -1,9 +1,10 @@
-import styled from "styled-components";
-import "typeface-nunito";
+import styled from 'styled-components';
+import 'typeface-istok-web';
 
 export const Header = styled.header`
   height: 650px;
   position: relative;
+  background: linear-gradient(45deg, rgb(38, 44, 65) 0%, rgb(70, 80, 122) 100%);
   overflow: hidden;
 `;
 
@@ -16,13 +17,13 @@ export const H1 = styled.h1`
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
-  color: inherit;
-  font-family: "Nunito", -apple-system, "BlinkMacSystemFont", "Segoe UI",
-    "Roboto", "Helvetica", "Arial", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
+  color: white;
+  font-family: 'Istok Web', -apple-system, 'BlinkMacSystemFont', 'Segoe UI',
+    'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol';
   font-weight: 700;
   text-rendering: optimizeLegibility;
-  font-size: 2.441rem;
+  font-size: 3.2rem;
   line-height: 1.1;
 `;
 

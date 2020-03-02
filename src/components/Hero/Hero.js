@@ -1,5 +1,5 @@
-import React from "react";
-import { Header, H1, HeadingContainer } from "./styles";
+import React from 'react';
+import { Header, H1, HeadingContainer } from './styles';
 
 class Hero extends React.Component {
   render() {
@@ -14,8 +14,10 @@ class Hero extends React.Component {
           <div class="cube"></div>
         </div>
         <HeadingContainer>
-          <H1>I'm Kamran Tahir</H1>
-          <H1>A Web Developer & Reader</H1>
+          <H1>
+            Full-Stack Developer &<br></br>
+            Avid Novel Reader
+          </H1>
         </HeadingContainer>
       </Header>
     );
