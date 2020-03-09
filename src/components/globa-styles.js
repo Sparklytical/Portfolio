@@ -5,7 +5,19 @@ const GlobalStyle = createGlobalStyle`
 .body {
   margin: 0;
 }
+.headroom--pinned nav a {
+    color: rgb(51, 52, 56);
+}
+.headroom--pinned span {
+    color: rgb(51, 52, 56);
+}
+.headroom--pinned svg g {
+    fill: rgb(51, 52, 56) !important;
+}
 
+.headroom svg g {
+    fill: rgb(51, 52, 56);
+}
 .headroom-wrapper {
     position: fixed;
     width: 100%;

@@ -7,6 +7,7 @@ export const Logo = styled.span`
     Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
   font-size: 1.25rem;
+  font-weight: 700;
   margin-left: 0.75rem;
   letter-spacing: 0.15em;
   color: rgb(255, 255, 255);
