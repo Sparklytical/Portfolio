@@ -29,7 +29,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-headroom": "^3.0.0",
-    "react-helmet": "^5.2.0",
+    "react-helmet": "^6.0.0",
     "react-is": "^16.13.0",
     "sanitize.css": "^11.0.0",
     "styled-components": "^5.0.1",
