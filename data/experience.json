@@ -1,0 +1,39 @@
+[{
+    "company": "Hackstrap",
+    "position": "Web Developer Intern",
+    "location": "Remote, India",
+    "duration": "June 2019 - August",
+    "description": [
+      "I worked on creating few websites for them including their homepage, chatbox etc.",
+      "Technologies Worked With: ReactJS, SCSS, CSS Modules, JavaScript"
+    ],
+    "responsibilities": ["Front - End Development"]
+  },
+  {
+    "company": "Matic",
+    "position": "Web Developer",
+    "location": "Remote, Greater Noida, India",
+    "duration": "Sep 2020 - Nov ",
+    "description": [
+      "Technologies: React, SCSS, Express, NodeJS, Metamask, Crypto Currency"
+    ],
+    "responsibilities": [
+      "Front End Development",
+      "Teaching a Junior"
+    ]
+  },
+  {
+    "company": "Hackstrap",
+    "position": "Web Developer",
+    "location": "Remote, India",
+    "duration": "March 2020 - Till now",
+    "description": [
+      "Joined as a Web Developer and helped making their Trello Client, A dashboard and also helped a junior regularly.",
+      "Technologies: React, SCSS, React-beautiful-dnd, Redux"
+    ],
+    "responsibilities": [
+      "UI Designing & Development",
+      "Front-End Development"
+    ]
+  }
+]

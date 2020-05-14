@@ -1,0 +1,26 @@
+[{
+    "icon": "dev",
+    "service": "DEV Community",
+    "url": "https://dev.to/evilspark"
+  },
+  {
+    "icon": "github",
+    "service": "GitHub",
+    "url": "https://github.com/EvilSpark"
+  },
+  {
+    "icon": "telegram",
+    "service": "Telegram",
+    "url": "https://t.me/evilspark"
+  },
+  {
+    "icon": "linkedin",
+    "service": "LinkedIn",
+    "url": "https://www.linkedin.com/in/kamran-tahir-6b6934170/"
+  },
+  {
+    "icon": "twitter",
+    "service": "Twitter",
+    "url": "https://twitter.com/evilsparked"
+  }
+]

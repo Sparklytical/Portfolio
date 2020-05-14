@@ -1,0 +1,24 @@
+{
+  "name": {
+    "first": "Mohd Kamran",
+    "last": "Tahir"
+  },
+  "position": "Full Stack Developer",
+  "website": "kamrantahir.me",
+  "location": "Fatehpur, UP, India",
+  "phone": "+91 9455222211",
+  "email": "kamrantahir25@gmail.com",
+  "proProfile": [
+    "Being a software engineer, I enjoy translating business needs into robust and integrated technology solutions. I love working in fast-paced environments solving unique and challenging tech problems and developing innovative solutions. Tinkering with new technologies is my passion. With a track record of developing successful project implementations in multi-domains, I have been involved in technical designs, code development, application architecture, code review.",
+    "Be sure to check out my website kamrantahir.me for some of the work I've done."
+  ],
+  "languages": [{
+      "name": "Hindi",
+      "proficiency": "Native"
+    },
+    {
+      "name": "English",
+      "proficiency": "Professional"
+    }
+  ]
+}

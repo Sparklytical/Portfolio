@@ -1,0 +1,122 @@
+[{
+    "title": "Titles",
+    "description": "",
+    "items": [{
+        "emoji": "🖥",
+        "name": "Full Stack Developer",
+        "description": "",
+        "link": ""
+      },
+      {
+        "emoji": "📝",
+        "name": "Software Engineer",
+        "description": "",
+        "link": ""
+      },
+      {
+        "emoji": "📱",
+        "name": "App Developer",
+        "description": "",
+        "link": ""
+      },
+      {
+        "emoji": "🕸",
+        "name": "Web Developer",
+        "description": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "title": "Hardware",
+    "description": "",
+    "items": [{
+      "emoji": "💻",
+      "name": "MSI p790\"",
+      "description": "I use Arch btw.",
+      "link": ""
+    }]
+  },
+  {
+    "title": "Dev Environment",
+    "description": "",
+    "items": [{
+        "emoji": "✏️",
+        "name": "VS Code",
+        "description": "",
+        "link": "https://code.visualstudio.com/"
+      },
+      {
+        "emoji": "🎨",
+        "name": "Bearded Grey Theme",
+        "description": "",
+        "link": ""
+      },
+      {
+        "emoji": "⌨️",
+        "name": "Konsole",
+        "description": "",
+        "link": ""
+      },
+      {
+        "emoji": "🕹",
+        "name": "Oh My Zsh",
+        "description": "",
+        "link": "https://github.com/ohmyzsh/ohmyzsh"
+      },
+      {
+        "emoji": "📦",
+        "name": "Yarn",
+        "description": "",
+        "link": "https://yarnpkg.com/"
+      }
+    ]
+  },
+  {
+    "title": "Browsers",
+    "description": "",
+    "items": [{
+        "emoji": "🐸",
+        "name": "Vivaldi",
+        "description": "",
+        "link": ""
+      },
+      {
+        "emoji": "🔥",
+        "name": "Firefox Developer Edition",
+        "description": "",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "title": "Websites",
+    "description": "",
+    "items": [{
+      "emoji": "💻",
+      "name": "Dev.to",
+      "description": "My top favourite website. ❤️",
+      "link": "http://dev.to"
+    }]
+  },
+  {
+    "title": "Softwares",
+    "description": "",
+    "items": [{
+      "emoji": "🎨",
+      "name": "Figma",
+      "description": "For all sorts of UI design stuff",
+      "link": "https://www.figma.com"
+    }]
+  },
+  {
+    "title": "Mobile Apps",
+    "description": "",
+    "items": [{
+      "emoji": "🎵",
+      "name": "Spotify",
+      "description": "I can live without music. ❤️",
+      "link": ""
+    }]
+  }
+]
